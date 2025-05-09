@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using UserManagementAPI.Contracts;
@@ -12,6 +13,7 @@ namespace UserManagementAPI.Controllers
     public class UsersController : ControllerBase
     {
         private readonly UsersService _usersService;
+
 
         public UsersController(UsersService usersService)
         {
@@ -37,8 +39,8 @@ namespace UserManagementAPI.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginUserRequest request)
         {
-            var token = await _usersService.Login(request.Username, request.Password);
-            return Ok(new { token });
+            var response = await _usersService.Login(request.Username, request.Password);
+            return Ok(new { response });
         }
 
         // GET: api/Users/getUser
@@ -58,6 +60,9 @@ namespace UserManagementAPI.Controllers
             return Ok(new { user.Username, user.Email });
             
         }
+
+        
+
 
     }
 }

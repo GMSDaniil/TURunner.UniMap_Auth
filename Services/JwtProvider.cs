@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using UserManagementAPI.Entities;
 using UserManagementAPI.Modells;
 namespace UserManagementAPI.Services
 {
@@ -29,6 +30,17 @@ namespace UserManagementAPI.Services
             var tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
 
             return tokenValue;
+        }
+
+        public RefreshTokenEntity GenerateRefreshToken(User user)
+        {
+            var refreshToken = new RefreshTokenEntity
+            {
+                Token = Guid.NewGuid(),
+                Expires = DateTime.UtcNow.AddDays(_options.RefreshTokenExpiresDays),
+                UserId = user.Id
+            };
+            return refreshToken;
         }
     }
 }

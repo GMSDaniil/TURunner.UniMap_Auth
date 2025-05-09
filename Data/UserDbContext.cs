@@ -8,5 +8,7 @@ namespace UserManagementAPI.Data
         public UserDbContext(DbContextOptions<UserDbContext> options) : base(options) { }
 
         public DbSet<UserEntity> Users { get; set; }
+
+        public DbSet<RefreshTokenEntity> RefreshTokens { get; set; }
     }
 }

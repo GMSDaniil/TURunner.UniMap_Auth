@@ -1,4 +1,5 @@
-﻿using UserManagementAPI.Modells;
+﻿using UserManagementAPI.Contracts;
+using UserManagementAPI.Modells;
 using UserManagementAPI.Repositories;
 
 namespace UserManagementAPI.Services
@@ -8,12 +9,14 @@ namespace UserManagementAPI.Services
         private readonly IPasswordHasher _passwordHasher;
         private readonly IUserRepository _userRepository;
         private readonly IJwtProvider _jwtProvider;
+        private readonly IRefreshTokenRepository _refreshTokenRepository;
 
-        public UsersService(IPasswordHasher passwordHasher, IUserRepository userRepository, IJwtProvider jwtProvider)
+        public UsersService(IPasswordHasher passwordHasher, IUserRepository userRepository, IJwtProvider jwtProvider, IRefreshTokenRepository refreshTokenRepository)
         {
             _passwordHasher = passwordHasher;
             _userRepository = userRepository;
             _jwtProvider = jwtProvider;
+            _refreshTokenRepository = refreshTokenRepository;
         }
 
         public async Task Register(string email, string password, string username)
@@ -35,7 +38,7 @@ namespace UserManagementAPI.Services
             await _userRepository.Add(user);
         }
 
-        public async Task<String> Login(string username, string password)
+        public async Task<LoginUserResponse> Login(string username, string password)
         {
             var user = await _userRepository.GetByUsername(username);
             if(user == null)
@@ -46,8 +49,17 @@ namespace UserManagementAPI.Services
             {
                 throw new Exception("Invalid password");
             }
-            var token = _jwtProvider.GenerateToken(user);
-            return token;
+            var accessToken = _jwtProvider.GenerateToken(user);
+
+            var refreshToken = _jwtProvider.GenerateRefreshToken(user);
+            await _refreshTokenRepository.Add(refreshToken);
+
+            return new LoginUserResponse
+            {
+                AccessToken = accessToken,
+                RefreshToken = refreshToken.Token.ToString(),
+                Username = username
+            };
         }
 
         public async Task<User> Get(string userId)
