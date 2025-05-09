@@ -40,7 +40,7 @@ namespace UserManagementAPI.Controllers
         public async Task<IActionResult> Login([FromBody] LoginUserRequest request)
         {
             var response = await _usersService.Login(request.Username, request.Password);
-            return Ok(new { response });
+            return Ok(response);
         }
 
         // GET: api/Users/getUser
