@@ -23,7 +23,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString = Environment.GetEnvironmentVariable("DB_CONNECTION_STRING");
 builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseNpgsql(connectionString));
 
@@ -34,12 +34,28 @@ builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 builder.Services.AddScoped<UsersService>();
 builder.Services.AddScoped<RefreshTokenService>();
 
-builder.Services.Configure<JwtOptions>(
-    builder.Configuration.GetSection("JwtOptions"));
+var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET_KEY");
+var jwtExpiresHours = Environment.GetEnvironmentVariable("JWT_EXPIRES_HOURS") != null
+        ? int.Parse(Environment.GetEnvironmentVariable("JWT_EXPIRES_HOURS")!)
+        : 12;
+var jwtRefreshTokenExpiresDays = Environment.GetEnvironmentVariable("JWT_REFRESH_TOKEN_EXPIRES_DAYS") != null
+        ? int.Parse(Environment.GetEnvironmentVariable("JWT_REFRESH_TOKEN_EXPIRES_DAYS")!)
+        : 14;
+builder.Services.Configure<JwtOptions>(options =>
+{
+    options.SecretKey = jwtSecret!;
+    options.ExpiresHours = jwtExpiresHours;
+    options.RefreshTokenExpiresDays = jwtRefreshTokenExpiresDays;
 
-JwtOptions jwtOptions = builder.Configuration
-    .GetSection("JwtOptions")
-    .Get<JwtOptions>()!;
+});
+
+var jwtOptions = new JwtOptions
+{
+    SecretKey = jwtSecret!,
+    ExpiresHours = jwtExpiresHours,
+    RefreshTokenExpiresDays = jwtRefreshTokenExpiresDays
+};
+
 
 builder.Services.AddApiAuthentication(Options.Create(jwtOptions));
 
