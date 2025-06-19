@@ -58,7 +58,7 @@ namespace UserManagementAPI.Services
             {
                 AccessToken = accessToken,
                 RefreshToken = refreshToken.Token.ToString(),
-                Username = username
+                User = new UserDTO(user.Username, user.Email)
             };
         }
 

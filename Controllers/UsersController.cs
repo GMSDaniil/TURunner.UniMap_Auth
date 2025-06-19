@@ -32,7 +32,8 @@ namespace UserManagementAPI.Controllers
             {
                 return BadRequest(ex.Message);
             }
-            return Ok();
+            var response = await _usersService.Login(request.Username, request.Password);
+            return Ok(response);
         }
 
         // POST: api/Users/login
