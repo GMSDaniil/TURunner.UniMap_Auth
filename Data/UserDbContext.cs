@@ -10,5 +10,10 @@ namespace UserManagementAPI.Data
         public DbSet<UserEntity> Users { get; set; }
 
         public DbSet<RefreshTokenEntity> RefreshTokens { get; set; }
+        
+        public DbSet<PlaceEntity> Places { get; set; }
+        
+        public DbSet<FavoritePlaceEntity> FavoritePlaces { get; set; }
+
     }
 }

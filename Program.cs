@@ -33,6 +33,8 @@ builder.Services.AddScoped<IJwtProvider, JwtProvider>();
 builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 builder.Services.AddScoped<UsersService>();
 builder.Services.AddScoped<RefreshTokenService>();
+builder.Services.AddScoped<FavoritePlacesService>();
+
 
 var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET_KEY");
 var jwtExpiresHours = Environment.GetEnvironmentVariable("JWT_EXPIRES_HOURS") != null
@@ -71,8 +73,7 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "User Management API v1");
         c.RoutePrefix = string.Empty; 
     });
-
-
+    
 }
 
 app.UseHttpsRedirection();

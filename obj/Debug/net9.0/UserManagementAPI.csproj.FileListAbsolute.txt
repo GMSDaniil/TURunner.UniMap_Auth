@@ -1,143 +1,281 @@
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\appsettings.Development.json
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\appsettings.json
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\UserManagementAPI.staticwebassets.endpoints.json
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\UserManagementAPI.exe
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\UserManagementAPI.deps.json
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\UserManagementAPI.runtimeconfig.json
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\UserManagementAPI.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\UserManagementAPI.pdb
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.OpenApi.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.csproj.AssemblyReference.cache
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.AssemblyInfoInputs.cache
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.AssemblyInfo.cs
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.csproj.CoreCompileInputs.cache
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.MvcApplicationPartsAssemblyInfo.cs
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.MvcApplicationPartsAssemblyInfo.cache
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\scopedcss\bundle\UserManagementAPI.styles.css
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\staticwebassets.build.json
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\staticwebassets.development.json
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\staticwebassets\msbuild.UserManagementAPI.Microsoft.AspNetCore.StaticWebAssets.props
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\staticwebassets\msbuild.UserManagementAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\staticwebassets\msbuild.build.UserManagementAPI.props
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.UserManagementAPI.props
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.UserManagementAPI.props
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\staticwebassets.pack.json
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserMana.72BC9F28.Up2Date
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\refint\UserManagementAPI.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.pdb
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.genruntimeconfig.cache
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\ref\UserManagementAPI.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Npgsql.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Humanizer.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Build.Locator.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Mono.TextTemplating.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\System.CodeDom.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\System.Composition.AttributedModel.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\System.Composition.Convention.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\System.Composition.Hosting.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\System.Composition.Runtime.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\System.Composition.TypedParts.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\BCrypt.Net-Next.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\IT Projects\UniMap\AuthenticationApiC#\UserManagementAPI\obj\Debug\net9.0\UserManagementAPI.sourcelink.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/appsettings.Development.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/appsettings.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/UserManagementAPI.staticwebassets.endpoints.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/UserManagementAPI.exe
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/UserManagementAPI.deps.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/UserManagementAPI.runtimeconfig.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/UserManagementAPI.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/UserManagementAPI.pdb
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.csproj.AssemblyReference.cache
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.AssemblyInfoInputs.cache
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.AssemblyInfo.cs
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.csproj.CoreCompileInputs.cache
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.MvcApplicationPartsAssemblyInfo.cs
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.MvcApplicationPartsAssemblyInfo.cache
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/scopedcss/bundle/UserManagementAPI.styles.css
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/staticwebassets.build.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/staticwebassets.development.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/staticwebassets/msbuild.UserManagementAPI.Microsoft.AspNetCore.StaticWebAssets.props
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/staticwebassets/msbuild.UserManagementAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/staticwebassets/msbuild.build.UserManagementAPI.props
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.UserManagementAPI.props
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.UserManagementAPI.props
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/staticwebassets.pack.json
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserMana.72BC9F28.Up2Date
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/refint/UserManagementAPI.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.pdb
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.genruntimeconfig.cache
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/ref/UserManagementAPI.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Npgsql.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Humanizer.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Mono.TextTemplating.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/System.CodeDom.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/System.Composition.Convention.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/System.Composition.Hosting.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/System.Composition.Runtime.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/System.Composition.TypedParts.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/BCrypt.Net-Next.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:/IT Projects/UniMap/AuthenticationApiC#/UserManagementAPI/obj/Debug/net9.0/UserManagementAPI.sourcelink.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.csproj.AssemblyReference.cache
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.AssemblyInfoInputs.cache
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.AssemblyInfo.cs
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.csproj.CoreCompileInputs.cache
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.sourcelink.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/refint/UserManagementAPI.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.pdb
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/appsettings.Development.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/appsettings.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/UserManagementAPI.staticwebassets.endpoints.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/UserManagementAPI
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/UserManagementAPI.deps.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/UserManagementAPI.runtimeconfig.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/UserManagementAPI.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/UserManagementAPI.pdb
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/BCrypt.Net-Next.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Humanizer.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Npgsql.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/System.CodeDom.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/scopedcss/bundle/UserManagementAPI.styles.css
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/staticwebassets.build.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/staticwebassets.build.json.cache
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/staticwebassets.development.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserMana.72BC9F28.Up2Date
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/UserManagementAPI.genruntimeconfig.cache
+/Users/oskarpavliuk/Desktop/Dustin/TURunner.UniMap_Auth/obj/Debug/net9.0/ref/UserManagementAPI.dll
