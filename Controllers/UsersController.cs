@@ -22,6 +22,8 @@ namespace UserManagementAPI.Controllers
 
         // POST: api/Users/register
         [HttpPost("register")]
+        [ProducesResponseType(typeof(LoginUserResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Register([FromBody] RegisterUserRequest request)
         {
             try
