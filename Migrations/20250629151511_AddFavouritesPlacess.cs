@@ -7,27 +7,38 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace UserManagementAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class AddFavoritePlaces : Migration
+    public partial class AddFavouritesPlacess : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Places",
+                name: "RefreshTokens",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Name = table.Column<string>(type: "text", nullable: false),
-                    Category = table.Column<string>(type: "text", nullable: true),
-                    Description = table.Column<string>(type: "text", nullable: true),
-                    Latitude = table.Column<double>(type: "double precision", nullable: false),
-                    Longitude = table.Column<double>(type: "double precision", nullable: false),
-                    Contour = table.Column<string>(type: "text", nullable: true)
+                    Token = table.Column<Guid>(type: "uuid", nullable: false),
+                    Expires = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    UserId = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Places", x => x.Id);
+                    table.PrimaryKey("PK_RefreshTokens", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Users",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    PasswordHash = table.Column<string>(type: "text", nullable: false),
+                    Email = table.Column<string>(type: "text", nullable: false),
+                    Username = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Users", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -46,22 +57,12 @@ namespace UserManagementAPI.Migrations
                 {
                     table.PrimaryKey("PK_FavoritePlaces", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_FavoritePlaces_Places_PlaceId",
-                        column: x => x.PlaceId,
-                        principalTable: "Places",
-                        principalColumn: "Id");
-                    table.ForeignKey(
                         name: "FK_FavoritePlaces_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_FavoritePlaces_PlaceId",
-                table: "FavoritePlaces",
-                column: "PlaceId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_FavoritePlaces_UserId",
@@ -76,7 +77,10 @@ namespace UserManagementAPI.Migrations
                 name: "FavoritePlaces");
 
             migrationBuilder.DropTable(
-                name: "Places");
+                name: "RefreshTokens");
+
+            migrationBuilder.DropTable(
+                name: "Users");
         }
     }
 }

@@ -33,7 +33,6 @@ namespace UserManagementAPI.Services
         public async Task<IEnumerable<FavoritePlaceEntity>> GetFavoritesByUserAsync(Guid userId)
         {
             return await _context.FavoritePlaces
-                .Include(f => f.Place)
                 .Where(f => f.UserId == userId)
                 .ToListAsync();
         }

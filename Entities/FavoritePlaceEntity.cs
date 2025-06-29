@@ -17,9 +17,6 @@ namespace UserManagementAPI.Entities
 
         public int? PlaceId { get; set; }
 
-        [ForeignKey("PlaceId")]
-        public PlaceEntity? Place { get; set; }
-
         // Альтернативні дані, якщо PlaceId не вказано
         public string? Name { get; set; }
         public double? Latitude { get; set; }
