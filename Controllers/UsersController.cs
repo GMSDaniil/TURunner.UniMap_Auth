@@ -28,21 +28,39 @@ namespace UserManagementAPI.Controllers
             try
             {
                 await _usersService.Register(request.Email, request.Password, request.Username);
+                try
+                {
+                    var response = await _usersService.Login(request.Username, request.Password);
+                    return Ok(response);
+                }
+                catch (UnauthorizedAccessException ex)
+                {
+                    return Unauthorized(ex.Message);
+                }
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
-            var response = await _usersService.Login(request.Username, request.Password);
-            return Ok(response);
+            
+            
         }
 
         // POST: api/Users/login
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginUserRequest request)
         {
-            var response = await _usersService.Login(request.Username, request.Password);
-            return Ok(response);
+            try
+            {
+                var response = await _usersService.Login(request.Username, request.Password);
+                return Ok(response);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(ex.Message);
+            }
+
+            
         }
 
         // GET: api/Users/getUser

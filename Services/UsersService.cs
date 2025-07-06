@@ -43,11 +43,11 @@ namespace UserManagementAPI.Services
             var user = await _userRepository.GetByUsername(username);
             if(user == null)
             {
-                throw new Exception("User not found");
+                throw new UnauthorizedAccessException("User not found");
             }
             if (!_passwordHasher.Verify(password, user.PasswordHash))
             {
-                throw new Exception("Invalid password");
+                throw new UnauthorizedAccessException("Invalid password");
             }
             var accessToken = _jwtProvider.GenerateToken(user);
 
