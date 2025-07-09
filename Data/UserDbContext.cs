@@ -11,6 +11,7 @@ namespace UserManagementAPI.Data
 
         public DbSet<RefreshTokenEntity> RefreshTokens { get; set; }
         public DbSet<FavouriteMealEntity> FavouriteMeals { get; set; }
+        public DbSet<FavoritePlaceEntity> FavoritePlaces { get; set; }
         public DbSet<StudyProgramEntity> ProgramCatalog { get; set; }
     }
 }

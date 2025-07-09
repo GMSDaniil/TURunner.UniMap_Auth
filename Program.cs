@@ -33,8 +33,10 @@ builder.Services.AddScoped<IJwtProvider, JwtProvider>();
 builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 builder.Services.AddScoped<UsersService>();
 builder.Services.AddScoped<RefreshTokenService>();
+
 builder.Services.AddScoped<IStudyProgramRepository, StudyProgramRepository>();
 builder.Services.AddScoped<StudyProgramService>();
+builder.Services.AddScoped<FavoritePlacesService>();
 
 
 var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET_KEY");
