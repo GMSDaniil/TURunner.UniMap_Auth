@@ -87,7 +87,7 @@ namespace UserManagementAPI.Controllers
         [HttpPost("addFavouriteMeal")]
         public async Task<IActionResult> AddFavouriteMeal([FromBody] AddFavouriteMealRequest request)
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = User.FindFirst("userId")?.Value;
 
             if (userId == null)
             {
@@ -113,7 +113,7 @@ namespace UserManagementAPI.Controllers
         [HttpDelete("removeFavouriteMeal/{id}")]
         public async Task<IActionResult> RemoveFavouriteMeal(int id)
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var userId = User.FindFirst("userId")?.Value;
 
             if (userId == null)
             {
