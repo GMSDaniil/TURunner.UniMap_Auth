@@ -57,13 +57,13 @@ namespace UserManagementAPI.Services
             
             var meals = await _userRepository.GetFavouriteMeals(user.Id.ToString());
             
-            var mealsDTO = meals.Select(m => new FavouriteMealDTO(m.MealName, m.MealPrice, m.Vegan, m.Vegetarian)).ToList();
+            var mealsList = meals.Select(m => new FavouriteMeal(m.Id, m.MealName, m.MealPrice, m.Vegan, m.Vegetarian)).ToList();
             
             return new LoginUserResponse
             {
                 AccessToken = accessToken,
                 RefreshToken = refreshToken.Token.ToString(),
-                User = new UserDTO(user.Username, user.Email, mealsDTO)
+                User = new UserDTO(user.Username, user.Email, mealsList)
             };
         }
 
@@ -85,8 +85,8 @@ namespace UserManagementAPI.Services
                 throw new Exception("User not found");
             }
             var meals = await _userRepository.GetFavouriteMeals(user.Id.ToString());
-            var mealsDTO = meals.Select(m => new FavouriteMealDTO(m.MealName, m.MealPrice, m.Vegan, m.Vegetarian)).ToList();
-            var userDTO = new UserDTO(user.Username, user.Email, mealsDTO);
+            var mealsList = meals.Select(m => new FavouriteMeal(m.Id, m.MealName, m.MealPrice, m.Vegan, m.Vegetarian)).ToList();
+            var userDTO = new UserDTO(user.Username, user.Email, mealsList);
             return userDTO;
         }
 
