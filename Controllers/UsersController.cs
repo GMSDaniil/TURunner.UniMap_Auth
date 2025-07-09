@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using UserManagementAPI.Contracts;
+using UserManagementAPI.Modells;
 using UserManagementAPI.Services;
 
 namespace UserManagementAPI.Controllers
@@ -75,14 +76,60 @@ namespace UserManagementAPI.Controllers
                 return Unauthorized();
             }
 
-            var user = await _usersService.Get(userId);
+            var user = await _usersService.GetDTO(userId);
 
-            return Ok(new { user.Username, user.Email });
+            return Ok(user);
             
         }
-
         
+        // POST: api/Users/addFavouriteMeal
+        [Authorize]
+        [HttpPost("addFavouriteMeal")]
+        public async Task<IActionResult> AddFavouriteMeal([FromBody] AddFavouriteMealRequest request)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
+            if (userId == null)
+            {
+                return Unauthorized();
+            }
+
+            try
+            {
+                var mealDTO = new FavouriteMealDTO(request.Name, request.Price, request.Vegan,
+                    request.Vegetarian);
+                var id = await _usersService.AddFavouriteMeal(userId, mealDTO);
+                return Ok(new {Id = id});
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+        
+        // DELETE: api/Users/removeFavouriteMeal
+        [Authorize]
+        [HttpDelete("removeFavouriteMeal/{id}")]
+        public async Task<IActionResult> RemoveFavouriteMeal(int id)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (userId == null)
+            {
+                return Unauthorized();
+            }
+
+            try
+            {
+                await _usersService.RemoveFavouriteMeal(userId, id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
 
     }
 }

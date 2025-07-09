@@ -12,8 +12,8 @@ using UserManagementAPI.Data;
 namespace UserManagementAPI.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    [Migration("20250629151511_AddFavouritesPlacess")]
-    partial class AddFavouritesPlacess
+    [Migration("20250709203834_FavouriteMeals")]
+    partial class FavouriteMeals
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,35 +25,34 @@ namespace UserManagementAPI.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("UserManagementAPI.Entities.FavoritePlaceEntity", b =>
+            modelBuilder.Entity("UserManagementAPI.Entities.FavouriteMealEntity", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
+                        .HasColumnType("integer");
 
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<double?>("Latitude")
-                        .HasColumnType("double precision");
-
-                    b.Property<double?>("Longitude")
-                        .HasColumnType("double precision");
-
-                    b.Property<string>("Name")
+                    b.Property<string>("MealName")
+                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int?>("PlaceId")
-                        .HasColumnType("integer");
+                    b.Property<string>("MealPrice")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
 
+                    b.Property<bool>("Vegan")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("Vegetarian")
+                        .HasColumnType("boolean");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
-
-                    b.ToTable("FavoritePlaces");
+                    b.ToTable("FavouriteMeals");
                 });
 
             modelBuilder.Entity("UserManagementAPI.Entities.RefreshTokenEntity", b =>
@@ -78,6 +77,26 @@ namespace UserManagementAPI.Migrations
                     b.ToTable("RefreshTokens");
                 });
 
+            modelBuilder.Entity("UserManagementAPI.Entities.StudyProgramEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProgramCode")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("ProgramName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProgramCatalog");
+                });
+
             modelBuilder.Entity("UserManagementAPI.Entities.UserEntity", b =>
                 {
                     b.Property<Guid>("Id")
@@ -99,17 +118,6 @@ namespace UserManagementAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("UserManagementAPI.Entities.FavoritePlaceEntity", b =>
-                {
-                    b.HasOne("UserManagementAPI.Entities.UserEntity", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

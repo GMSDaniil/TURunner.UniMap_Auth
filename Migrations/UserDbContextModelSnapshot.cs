@@ -22,35 +22,34 @@ namespace UserManagementAPI.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("UserManagementAPI.Entities.FavoritePlaceEntity", b =>
+            modelBuilder.Entity("UserManagementAPI.Entities.FavouriteMealEntity", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
+                        .HasColumnType("integer");
 
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<double?>("Latitude")
-                        .HasColumnType("double precision");
-
-                    b.Property<double?>("Longitude")
-                        .HasColumnType("double precision");
-
-                    b.Property<string>("Name")
+                    b.Property<string>("MealName")
+                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int?>("PlaceId")
-                        .HasColumnType("integer");
+                    b.Property<string>("MealPrice")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<Guid>("UserId")
                         .HasColumnType("uuid");
 
+                    b.Property<bool>("Vegan")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("Vegetarian")
+                        .HasColumnType("boolean");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
-
-                    b.ToTable("FavoritePlaces");
+                    b.ToTable("FavouriteMeals");
                 });
 
             modelBuilder.Entity("UserManagementAPI.Entities.RefreshTokenEntity", b =>
@@ -116,17 +115,6 @@ namespace UserManagementAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("UserManagementAPI.Entities.FavoritePlaceEntity", b =>
-                {
-                    b.HasOne("UserManagementAPI.Entities.UserEntity", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

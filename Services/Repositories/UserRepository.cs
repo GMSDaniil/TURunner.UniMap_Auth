@@ -51,5 +51,34 @@ namespace UserManagementAPI.Repositories
             return User.Create(user.Id, user.PasswordHash, user.Email, user.Username);
         }
 
+        public async Task<List<FavouriteMealEntity>> GetFavouriteMeals(string userId)
+        {
+            var meals = await _context.FavouriteMeals
+                .Where(m => m.UserId.ToString() == userId)
+                .AsNoTracking()
+                .ToListAsync();
+
+            return meals;
+        }
+        
+        public async Task<int> AddFavouriteMeal(FavouriteMealEntity meal)
+        {
+            await _context.FavouriteMeals.AddAsync(meal);
+            await _context.SaveChangesAsync();
+
+            return meal.Id;
+        }
+        
+        public async Task RemoveFavouriteMeal(String userId, int Id)
+        {
+            var meal = await _context.FavouriteMeals
+                .FirstOrDefaultAsync(m => m.UserId.ToString() == userId && m.Id == Id);
+            if (meal != null)
+            {
+                _context.FavouriteMeals.Remove(meal);
+                await _context.SaveChangesAsync();
+            }
+        }
+
     }
 }
