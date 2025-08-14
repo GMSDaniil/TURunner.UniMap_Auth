@@ -11,13 +11,15 @@ namespace UserManagementAPI.Services
         private readonly IUserRepository _userRepository;
         private readonly IJwtProvider _jwtProvider;
         private readonly IRefreshTokenRepository _refreshTokenRepository;
+        private readonly FavoritePlacesService _favoritePlacesService;
 
-        public UsersService(IPasswordHasher passwordHasher, IUserRepository userRepository, IJwtProvider jwtProvider, IRefreshTokenRepository refreshTokenRepository)
+        public UsersService(IPasswordHasher passwordHasher, IUserRepository userRepository, IJwtProvider jwtProvider, IRefreshTokenRepository refreshTokenRepository, FavoritePlacesService favoritePlacesService)
         {
             _passwordHasher = passwordHasher;
             _userRepository = userRepository;
             _jwtProvider = jwtProvider;
             _refreshTokenRepository = refreshTokenRepository;
+            _favoritePlacesService = favoritePlacesService;
         }
 
         public async Task Register(string email, string password, string username)
@@ -59,11 +61,13 @@ namespace UserManagementAPI.Services
             
             var mealsList = meals.Select(m => new FavouriteMeal(m.Id, m.MealName, m.MealPrice, m.Vegan, m.Vegetarian)).ToList();
             
+            var favoritePlaces = await _favoritePlacesService.GetFavoritesByUserAsync(user.Id);
+            
             return new LoginUserResponse
             {
                 AccessToken = accessToken,
                 RefreshToken = refreshToken.Token.ToString(),
-                User = new UserDTO(user.Username, user.Email, mealsList)
+                User = new UserDTO(user.Username, user.Email, mealsList, favoritePlaces.ToList())
             };
         }
 
@@ -86,7 +90,8 @@ namespace UserManagementAPI.Services
             }
             var meals = await _userRepository.GetFavouriteMeals(user.Id.ToString());
             var mealsList = meals.Select(m => new FavouriteMeal(m.Id, m.MealName, m.MealPrice, m.Vegan, m.Vegetarian)).ToList();
-            var userDTO = new UserDTO(user.Username, user.Email, mealsList);
+            var favoritePlaces = await _favoritePlacesService.GetFavoritesByUserAsync(user.Id);
+            var userDTO = new UserDTO(user.Username, user.Email, mealsList, favoritePlaces.ToList());
             return userDTO;
         }
 
