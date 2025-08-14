@@ -24,8 +24,8 @@ public class FavoritePlacesController : ControllerBase
         if (userIdStr == null) return Unauthorized();
         var userId = Guid.Parse(userIdStr);
 
-        await _favoritePlacesService.AddFavoriteAsync(userId, request.PlaceId, request.Name, request.Latitude, request.Longitude);
-        return Ok();
+        var id = await _favoritePlacesService.AddFavoriteAsync(userId, request.PlaceId, request.Name, request.Latitude, request.Longitude);
+        return Ok(id);
     }
 
     [Authorize]

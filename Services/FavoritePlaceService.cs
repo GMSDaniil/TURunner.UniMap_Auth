@@ -13,11 +13,12 @@ namespace UserManagementAPI.Services
             _context = context;
         }
 
-        public async Task AddFavoriteAsync(Guid userId, int? placeId, string? name, double? lat, double? lon)
+        public async Task<Guid> AddFavoriteAsync(Guid userId, int? placeId, string? name, double? lat, double? lon)
         {
+            Guid newId = Guid.NewGuid();
             var favorite = new FavoritePlaceEntity
             {
-                Id = Guid.NewGuid(),
+                Id = newId,
                 UserId = userId,
                 PlaceId = placeId,
                 Name = name,
@@ -28,6 +29,8 @@ namespace UserManagementAPI.Services
 
             _context.FavoritePlaces.Add(favorite);
             await _context.SaveChangesAsync();
+
+            return newId;
         }
 
         public async Task<IEnumerable<FavoritePlaceEntity>> GetFavoritesByUserAsync(Guid userId)
