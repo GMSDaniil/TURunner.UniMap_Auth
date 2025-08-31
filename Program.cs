@@ -31,6 +31,7 @@ builder.Services.AddDbContext<UserDbContext>(options =>
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
 builder.Services.AddScoped<IJwtProvider, JwtProvider>();
+builder.Services.AddScoped<IEmailJwtProvider, EmailJwtProvider>();
 builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 builder.Services.AddScoped<UsersService>();
 builder.Services.AddScoped<RefreshTokenService>();
@@ -57,6 +58,17 @@ builder.Services.Configure<JwtOptions>(options =>
     options.RefreshTokenExpiresDays = jwtRefreshTokenExpiresDays;
 
 });
+
+var emailJwtSecret = Environment.GetEnvironmentVariable("EMAIL_JWT_SECRET_KEY");
+var emailJwtExpiresHours = Environment.GetEnvironmentVariable("EMAIL_JWT_EXPIRES_HOURS") != null
+        ? int.Parse(Environment.GetEnvironmentVariable("EMAIL_JWT_EXPIRES_HOURS")!)
+        : 1;
+builder.Services.Configure<EmailJwtOptions>(options =>
+{
+    options.SecretKey = emailJwtSecret!;
+    options.ExpiresHours = emailJwtExpiresHours;
+});
+
 
 var jwtOptions = new JwtOptions
 {
