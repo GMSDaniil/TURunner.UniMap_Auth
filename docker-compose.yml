@@ -4,6 +4,9 @@ services:
     image: tubify-user-manager
     expose:
       - "5000"
+    build:
+      context: .
+      dockerfile: Dockerfile
     environment:
       - ASPNETCORE_URLS=http://+:5000
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}
