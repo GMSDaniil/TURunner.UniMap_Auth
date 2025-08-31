@@ -13,6 +13,8 @@ namespace UserManagementAPI.Entities
         }
 
         public Guid Id { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public bool isConfirmed { get; set; } = false;
         public string PasswordHash { get; set; }
         public string Email { get; set; }
         public string Username { get; set; }

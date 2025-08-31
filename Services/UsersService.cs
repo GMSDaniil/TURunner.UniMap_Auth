@@ -36,7 +36,7 @@ namespace UserManagementAPI.Services
             }
             var hashedPassword = _passwordHasher.Generate(password);
 
-            var user = User.Create(Guid.NewGuid(), hashedPassword, email, username);
+            var user = User.Create(Guid.NewGuid(), hashedPassword, email, username, false);
 
             await _userRepository.Add(user);
         }
@@ -67,7 +67,7 @@ namespace UserManagementAPI.Services
             {
                 AccessToken = accessToken,
                 RefreshToken = refreshToken.Token.ToString(),
-                User = new UserDTO(user.Username, user.Email, mealsList, favoritePlaces.ToList())
+                User = new UserDTO(user.Username, user.Email, user.IsConfirmed, mealsList, favoritePlaces.ToList())
             };
         }
 
@@ -91,7 +91,7 @@ namespace UserManagementAPI.Services
             var meals = await _userRepository.GetFavouriteMeals(user.Id.ToString());
             var mealsList = meals.Select(m => new FavouriteMeal(m.Id, m.MealName, m.MealPrice, m.Vegan, m.Vegetarian)).ToList();
             var favoritePlaces = await _favoritePlacesService.GetFavoritesByUserAsync(user.Id);
-            var userDTO = new UserDTO(user.Username, user.Email, mealsList, favoritePlaces.ToList());
+            var userDTO = new UserDTO(user.Username, user.Email,user.IsConfirmed, mealsList, favoritePlaces.ToList());
             return userDTO;
         }
 

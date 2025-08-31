@@ -148,6 +148,20 @@ namespace UserManagementAPI.Controllers
             }
         }
 
+        [HttpGet("verify")]
+        public async Task<IActionResult> VerifyEmail([FromQuery] string token)
+        {
+            try
+            {
+                await _emailService.ConfirmEmail(token);
+                return Ok("Email confirmed successfully.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        
         [HttpGet("resetPasswordEmail/{email}")]
         public async Task<IActionResult> ResetPasswordEmail(string email)
         {

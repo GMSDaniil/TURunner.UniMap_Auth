@@ -28,7 +28,7 @@ namespace UserManagementAPI.Repositories
             {
                 return null;
             }
-            return User.Create(user.Id, user.PasswordHash, user.Email, user.Username);
+            return User.Create(user.Id, user.PasswordHash, user.Email, user.Username, user.isConfirmed);
         }
 
         public async Task<User?> GetByUsername(string username)
@@ -38,7 +38,7 @@ namespace UserManagementAPI.Repositories
             {
                 return null;
             }
-            return User.Create(user.Id, user.PasswordHash, user.Email, user.Username);
+            return User.Create(user.Id, user.PasswordHash, user.Email, user.Username, user.isConfirmed);
         }
 
         public async Task<User?> GetByUserId(string userId)
@@ -48,7 +48,7 @@ namespace UserManagementAPI.Repositories
             {
                 return null;
             }
-            return User.Create(user.Id, user.PasswordHash, user.Email, user.Username);
+            return User.Create(user.Id, user.PasswordHash, user.Email, user.Username, user.isConfirmed);
         }
 
         public async Task<List<FavouriteMealEntity>> GetFavouriteMeals(string userId)
@@ -76,6 +76,17 @@ namespace UserManagementAPI.Repositories
             if (meal != null)
             {
                 _context.FavouriteMeals.Remove(meal);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        public async Task ConfirmUser(string userId)
+        {
+            
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id.ToString() == userId);
+            if (user != null)
+            {
+                user.isConfirmed = true;
                 await _context.SaveChangesAsync();
             }
         }

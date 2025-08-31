@@ -12,7 +12,7 @@ public class EmailService(ISmtpRepository smtpRepository, IEmailJwtProvider emai
         if (user == null) throw new Exception("User not found");
         var token = emailJwtProvider.GenerateToken(user.Id.ToString());
         
-        var confirmLink = $"https://myapp.com/tubify/api/Users/verify?token={token}";
+        var confirmLink = $"https://dev.cherep.co/tubify/api/Users/verify?token={token}";
         var htmlBody = $@"
             <p>Welcome to Tubify!</p>
             <p>Please confirm your email by clicking the link below:</p>
@@ -20,6 +20,16 @@ public class EmailService(ISmtpRepository smtpRepository, IEmailJwtProvider emai
         ";
         
         await smtpRepository.SendEmailAsync(userEmail, "Confirm your email", htmlBody);
+    }
+
+    public async Task ConfirmEmail(string token)
+    {
+        var userId = emailJwtProvider.GetUserId(token);
+        if (userId == null) throw new Exception("Invalid token");
+        var user = await userRepository.GetByUserId(userId);
+        if (user == null) throw new Exception("User not found");
+        await userRepository.ConfirmUser(user.Id.ToString());
+
     }
     
     public async Task SendPasswordResetEmail(string userEmail)

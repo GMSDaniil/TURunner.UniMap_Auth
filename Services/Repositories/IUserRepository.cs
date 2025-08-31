@@ -12,5 +12,6 @@ namespace UserManagementAPI.Repositories
         Task<List<FavouriteMealEntity>> GetFavouriteMeals(string userId);
         Task<int> AddFavouriteMeal(FavouriteMealEntity meal);
         Task RemoveFavouriteMeal(String userId, int Id);
+        Task ConfirmUser(String userId);
     }
 }
