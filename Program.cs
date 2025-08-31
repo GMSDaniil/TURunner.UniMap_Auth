@@ -4,6 +4,7 @@ using UserManagementAPI.Data;
 using UserManagementAPI.Extensions;
 using UserManagementAPI.Repositories;
 using UserManagementAPI.Services;
+using UserManagementAPI.Services.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +39,9 @@ builder.Services.AddScoped<IStudyProgramRepository, StudyProgramRepository>();
 builder.Services.AddScoped<StudyProgramService>();
 builder.Services.AddScoped<FavoritePlacesService>();
 
+builder.Services.AddScoped<ISmtpRepository, SmtpRepository>();
+builder.Services.AddScoped<EmailService>();
+
 
 var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET_KEY");
 var jwtExpiresHours = Environment.GetEnvironmentVariable("JWT_EXPIRES_HOURS") != null
@@ -60,6 +64,18 @@ var jwtOptions = new JwtOptions
     ExpiresHours = jwtExpiresHours,
     RefreshTokenExpiresDays = jwtRefreshTokenExpiresDays
 };
+
+var smtpUser = Environment.GetEnvironmentVariable("SMTP_USER");
+var smtpPassword = Environment.GetEnvironmentVariable("SMTP_PASSWORD");
+
+builder.Services.Configure<SmtpOptions>(options => 
+    {
+    options.User = smtpUser!;
+    options.Pass = smtpPassword!;
+    options.Host = "smtp.gmail.com";
+    options.Port = 587;
+    options.EnableSsl = true;
+});
 
 
 builder.Services.AddApiAuthentication(Options.Create(jwtOptions));

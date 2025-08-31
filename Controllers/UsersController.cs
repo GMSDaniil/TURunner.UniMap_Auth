@@ -13,11 +13,14 @@ namespace UserManagementAPI.Controllers
     public class UsersController : ControllerBase
     {
         private readonly UsersService _usersService;
+        
+        private readonly EmailService _emailService;
 
 
-        public UsersController(UsersService usersService)
+        public UsersController(UsersService usersService, EmailService emailService)
         {
             _usersService = usersService;
+            _emailService = emailService;
         }
 
         // POST: api/Users/register
@@ -131,5 +134,32 @@ namespace UserManagementAPI.Controllers
             }
         }
 
+        [HttpGet("getConfirmationEmail/{email}")]
+        public async Task<IActionResult> GetConfirmationEmail(string email)
+        {
+            try
+            {
+                await _emailService.SendConfirmationEmail(email);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("resetPasswordEmail/{email}")]
+        public async Task<IActionResult> ResetPasswordEmail(string email)
+        {
+            try
+            {
+                await _emailService.SendPasswordResetEmail(email);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
