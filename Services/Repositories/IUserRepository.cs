@@ -8,10 +8,11 @@ namespace UserManagementAPI.Repositories
         Task Add(User user);
         Task<User?> GetByEmail(string email);
         Task<User?> GetByUsername(string email);
-        Task<User?> GetByUserId(string email);
+        Task<User?> GetByUserId(string userId);
         Task<List<FavouriteMealEntity>> GetFavouriteMeals(string userId);
         Task<int> AddFavouriteMeal(FavouriteMealEntity meal);
         Task RemoveFavouriteMeal(String userId, int Id);
         Task ConfirmUser(String userId);
+        Task UpdatePassword(string userId, string newPassword);
     }
 }

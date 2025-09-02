@@ -148,7 +148,7 @@ namespace UserManagementAPI.Controllers
             }
         }
 
-        [HttpGet("verify")]
+        [HttpGet("verifyEmail")]
         public async Task<IActionResult> VerifyEmail([FromQuery] string token)
         {
             try
@@ -169,6 +169,35 @@ namespace UserManagementAPI.Controllers
             {
                 await _emailService.SendPasswordResetEmail(email);
                 return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("verifyResetCode")]
+        public async Task<IActionResult> VerifyResetCode([FromBody] VerifyCodeRequest request)
+        {
+            try
+            {
+                var token = await _usersService.VerifyResetCode(request.Email, request.Code);
+                return Ok(new { Token = token });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
+        }
+
+        [HttpPost("resetPassword")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest request)
+        {
+            try
+            {
+                await _usersService.ResetPassword(request.Token, request.NewPassword);
+                return Ok("Password reset successfully.");
             }
             catch (Exception ex)
             {

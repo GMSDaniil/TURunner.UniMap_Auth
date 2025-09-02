@@ -13,5 +13,6 @@ namespace UserManagementAPI.Data
         public DbSet<FavouriteMealEntity> FavouriteMeals { get; set; }
         public DbSet<FavoritePlaceEntity> FavoritePlaces { get; set; }
         public DbSet<StudyProgramEntity> ProgramCatalog { get; set; }
+        public DbSet<ResetCodeEntity> PasswordResetCodes { get; set; }
     }
 }

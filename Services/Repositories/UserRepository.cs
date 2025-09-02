@@ -91,5 +91,15 @@ namespace UserManagementAPI.Repositories
             }
         }
 
+        public async Task UpdatePassword(string userId, string newPasswordHash)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id.ToString() == userId);
+            if (user != null)
+            {
+                user.PasswordHash = newPasswordHash;
+                await _context.SaveChangesAsync();
+            }
+        }
+
     }
 }

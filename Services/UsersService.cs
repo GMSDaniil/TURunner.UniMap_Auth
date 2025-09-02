@@ -12,14 +12,18 @@ namespace UserManagementAPI.Services
         private readonly IJwtProvider _jwtProvider;
         private readonly IRefreshTokenRepository _refreshTokenRepository;
         private readonly FavoritePlacesService _favoritePlacesService;
+        private readonly ResetCodesService _resetCodesService;
+        private readonly IResetCodeJwtProvider _resetCodeJwtProvider;
 
-        public UsersService(IPasswordHasher passwordHasher, IUserRepository userRepository, IJwtProvider jwtProvider, IRefreshTokenRepository refreshTokenRepository, FavoritePlacesService favoritePlacesService)
+        public UsersService(IPasswordHasher passwordHasher, IUserRepository userRepository, IJwtProvider jwtProvider, IRefreshTokenRepository refreshTokenRepository, FavoritePlacesService favoritePlacesService, ResetCodesService resetCodesService, IResetCodeJwtProvider resetCodeJwtProvider)
         {
             _passwordHasher = passwordHasher;
             _userRepository = userRepository;
             _jwtProvider = jwtProvider;
             _refreshTokenRepository = refreshTokenRepository;
             _favoritePlacesService = favoritePlacesService;
+            _resetCodesService = resetCodesService;
+            _resetCodeJwtProvider = resetCodeJwtProvider;
         }
 
         public async Task Register(string email, string password, string username)
@@ -126,6 +130,30 @@ namespace UserManagementAPI.Services
             }
 
             await _userRepository.RemoveFavouriteMeal(user.Id.ToString(), Id);
+        }
+
+        public async Task<string> VerifyResetCode(string email, int code)
+        {
+            var user = await _userRepository.GetByEmail(email);
+            if (user == null) throw new Exception("User not found");
+
+            var verified = await _resetCodesService.Verify(user.Id, code);
+            if (!verified) throw new Exception("Invalid code");
+            
+            var token = _resetCodeJwtProvider.GenerateToken(user.Id.ToString());
+
+            return token;
+        }
+        
+        public async Task ResetPassword(string token, string newPassword)
+        {
+            var userId = _resetCodeJwtProvider.GetUserId(token);
+            if (userId == null) throw new Exception("Invalid token");
+            var user = await _userRepository.GetByUserId(userId);
+            if (user == null) throw new Exception("User not found");
+
+            var hashedPassword = _passwordHasher.Generate(newPassword);
+            await _userRepository.UpdatePassword(user.Id.ToString(), hashedPassword);
         }
     }
 }

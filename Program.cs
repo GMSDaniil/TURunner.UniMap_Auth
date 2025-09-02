@@ -35,6 +35,9 @@ builder.Services.AddScoped<IEmailJwtProvider, EmailJwtProvider>();
 builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 builder.Services.AddScoped<UsersService>();
 builder.Services.AddScoped<RefreshTokenService>();
+builder.Services.AddScoped<IResetCodeRepository, ResetCodeRepository>();
+builder.Services.AddScoped<ResetCodesService>();
+builder.Services.AddScoped<IResetCodeJwtProvider, ResetCodeJwtProvider>();
 
 builder.Services.AddScoped<IStudyProgramRepository, StudyProgramRepository>();
 builder.Services.AddScoped<StudyProgramService>();
@@ -68,6 +71,9 @@ builder.Services.Configure<EmailJwtOptions>(options =>
     options.SecretKey = emailJwtSecret!;
     options.ExpiresHours = emailJwtExpiresHours;
 });
+
+var passwordJwtSecret = Environment.GetEnvironmentVariable("PASSWORD_RESET_JWT_KEY");
+builder.Services.Configure<PasswordResetOptions>(options => { options.SecretKey = passwordJwtSecret!; });
 
 
 var jwtOptions = new JwtOptions
