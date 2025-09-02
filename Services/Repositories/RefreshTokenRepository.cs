@@ -33,5 +33,11 @@ namespace UserManagementAPI.Repositories
             _context.RefreshTokens.Remove(token);
             await _context.SaveChangesAsync();
         }
+
+        public async Task DeleteAll(Guid userId)
+        {
+            await _context.RefreshTokens.Where(t => t.UserId == userId).ExecuteDeleteAsync();
+            await _context.SaveChangesAsync();
+        }
     }
 }

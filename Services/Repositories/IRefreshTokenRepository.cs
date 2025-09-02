@@ -7,5 +7,6 @@ namespace UserManagementAPI.Repositories
         Task Add(RefreshTokenEntity token);
         Task<RefreshTokenEntity> GetByToken(string token);
         Task Delete(RefreshTokenEntity token);
+        Task DeleteAll(Guid userId);
     }
 }

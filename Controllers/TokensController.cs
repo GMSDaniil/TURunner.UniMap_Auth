@@ -27,8 +27,14 @@ namespace UserManagementAPI.Controllers
 
             var storedToken = await _refreshTokenService.GetByToken(token);
 
-            if (storedToken == null || storedToken.Expires < DateTime.UtcNow)
+            if (storedToken == null)
             {
+                return Unauthorized("Invalid or expired refresh token.");
+            }
+
+            if (storedToken.Expires < DateTime.UtcNow)
+            {
+                await _refreshTokenService.Delete(storedToken);
                 return Unauthorized("Invalid or expired refresh token.");
             }
 

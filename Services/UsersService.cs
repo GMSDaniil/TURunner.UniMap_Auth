@@ -152,6 +152,8 @@ namespace UserManagementAPI.Services
             var user = await _userRepository.GetByUserId(userId);
             if (user == null) throw new Exception("User not found");
 
+            await _refreshTokenRepository.DeleteAll(user.Id);
+
             var hashedPassword = _passwordHasher.Generate(newPassword);
             await _userRepository.UpdatePassword(user.Id.ToString(), hashedPassword);
         }
