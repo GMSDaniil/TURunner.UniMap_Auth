@@ -14,7 +14,7 @@ public class ResetCodesService(IResetCodeRepository resetCodeRepository)
         {
             UserId = userId,
             Code = code,
-            Expires = DateTime.Now.AddMinutes(30),
+            Expires = DateTime.UtcNow.AddMinutes(30),
         };
         
         await resetCodeRepository.Add(resetCode);
@@ -25,7 +25,7 @@ public class ResetCodesService(IResetCodeRepository resetCodeRepository)
     public async Task<bool> Verify(Guid userId, int code)
     {
         var resetCodes = await resetCodeRepository.GetByUserId(userId);
-        var resetCode = resetCodes.FirstOrDefault(rc => rc.Code == code && !rc.IsUsed && rc.Expires > DateTime.Now);
+        var resetCode = resetCodes.FirstOrDefault(rc => rc.Code == code && !rc.IsUsed && rc.Expires > DateTime.UtcNow);
         if (resetCode == null)
         {
             return false;
