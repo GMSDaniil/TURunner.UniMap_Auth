@@ -101,5 +101,23 @@ namespace UserManagementAPI.Repositories
             }
         }
 
+        public async Task DeleteUser(string userId)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id.ToString() == userId);
+            if (user != null)
+            {
+                _context.Users.Remove(user);
+                await _context.SaveChangesAsync();
+            }
+            
+            var favoriteMeals = _context.FavouriteMeals.Where(m => m.UserId.ToString() == userId);
+            _context.FavouriteMeals.RemoveRange(favoriteMeals);
+            await _context.SaveChangesAsync();
+            
+            var favoritePlaces = _context.FavoritePlaces.Where(fp => fp.UserId.ToString() == userId);
+            _context.FavoritePlaces.RemoveRange(favoritePlaces);
+            await _context.SaveChangesAsync();
+        }
+
     }
 }

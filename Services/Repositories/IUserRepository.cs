@@ -14,5 +14,6 @@ namespace UserManagementAPI.Repositories
         Task RemoveFavouriteMeal(String userId, int Id);
         Task ConfirmUser(String userId);
         Task UpdatePassword(string userId, string newPassword);
+        Task DeleteUser(string userId);
     }
 }

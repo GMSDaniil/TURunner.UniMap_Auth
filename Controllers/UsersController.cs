@@ -63,8 +63,30 @@ namespace UserManagementAPI.Controllers
             {
                 return Unauthorized(ex.Message);
             }
-
             
+        }
+        
+        // DELETE: api/Users/deleteAccount
+        [Authorize]
+        [HttpDelete("deleteAccount")]
+        public async Task<IActionResult> DeleteAccount([FromBody] DeleteAccountRequest request)
+        {
+            var userId = User.FindFirst("userId")?.Value;
+
+            if (userId == null)
+            {
+                return Unauthorized();
+            }
+
+            try
+            {
+                await _usersService.Delete(userId, request.Password);
+                return Ok("Account deleted successfully.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // GET: api/Users/getUser

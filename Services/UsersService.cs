@@ -85,6 +85,21 @@ namespace UserManagementAPI.Services
             return user;
         }
         
+        public async Task Delete(string userId, string password)
+        {
+            var user = await _userRepository.GetByUserId(userId);
+            if (user == null)
+            {
+                throw new Exception("User not found");
+            }
+            if (!_passwordHasher.Verify(password, user.PasswordHash))
+            {
+                throw new UnauthorizedAccessException("Invalid password");
+            }
+            await _refreshTokenRepository.DeleteAll(user.Id);
+            await _userRepository.DeleteUser(user.Id.ToString());
+        }
+        
         public async Task<UserDTO> GetDTO(string userId)
         {
             var user = await _userRepository.GetByUserId(userId);
